@@ -11,6 +11,7 @@ namespace ExerciceAPI.Controllers
         {
             const string html = "<body><h1>Hello, World</h1></body>";
             return Content(html, "text/html");
+
         }
     }
 }
